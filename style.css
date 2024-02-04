@@ -106,7 +106,7 @@ section p {
 section form {
     margin-top: 20px;
     height: 500px;
-    width: 650px;
+    width: 50vw;
     border: 1px solid gray;
 }
 
@@ -200,7 +200,7 @@ form span {
 
 aside main {
     height: 500px;
-    width: 400px;
+    width: 30vw;
     border: 1px solid gray;
     margin-top: 63px;
     margin-left: 30px;
@@ -276,4 +276,26 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.nav-box1 {
+    height: 150px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin-top: 220px;
+    margin-left: -250px;
+    display: none;
+}
+
+.nav-box2 {
+    height: 150px;
+    width: 200px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    margin-top: 220px;
+    margin-left: -250px;
+    display: none;
 }
